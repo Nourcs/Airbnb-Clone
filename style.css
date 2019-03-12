@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #484848;
+  letter-spacing: 0.2px;
+}
+
+header {
+  height: 80px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  height: 30px;
+  position: relative;
+  top: 25px;
+  left: 27px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: 20px;
+}
+
+.links > div {
+  height: 100%;
+}
+
+.links > div {
+  display: flex;
+  align-items: center;
+}
+
+.links > div > div > a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #484848;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 30px 0;
+}
+
+.links > div > div > a:hover {
+  border-bottom: 2px solid #767676;
+}
+.search {
+  height: 18px;
+  color: #484848;
+  position: absolute;
+  top: 32px;
+  left: 98px;
+  z-index: 999;
+}
+
+input {
+  position: relative;
+  left: 50px;
+  top: 15px;
+  height: 48px;
+  width: 460px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(26, 26, 29, 0.08) !important;
+  border: 1px solid #ebebeb;
+  padding-left: 49px;
+  padding-top: 3px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #484848;
+  letter-spacing: 0.2px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #767676;
+}
+
+.profile-container {
+  padding: 24px 0;
+}
+.profile-container:hover {
+  padding: 23px 0;
+
+  margin-top: 1px;
+  border-bottom: 2px solid #767676;
+}
+.profile {
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  border: 2px solid #ececec;
+  background: url(https://a0.muscache.com/im/pictures/user/70051874-c731-4b7c-ae6a-05519e4b764f.jpg?aki_policy=profile_small);
+}
+
+.body {
+  margin: 55px 82px;
+}
+section {
+  margin-bottom: 60px;
+}
+
+.card-container {
+  display: flex;
+}
+
+.card {
+  width: 286px;
+  height: 78px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(26, 26, 29, 0.08) !important;
+  border: 1px solid #ebebeb;
+  border-left: none;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.card1-image {
+  height: 78px;
+  width: 96px;
+  background-image: url(https://media.istockphoto.com/photos/cozy-bedroom-in-modern-design-picture-id509096022?k=6&m=509096022&s=612x612&w=0&h=mQzOEOk5jVr_GwfPYhYlhORDU-J9U6yMf5oToP6XHAY=);
+  background-size: 125%;
+}
+
+.card > h4 {
+  margin-left: 20px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+.card2-image {
+  height: 78px;
+  width: 96px;
+  background-image: url(https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2010/11/Fitness-Silver-Cyclists.jpg);
+  background-size: 145%;
+}
+
+.card3-image {
+  height: 78px;
+  width: 96px;
+  background-image: url(https://media2.fdncms.com/chicago/imager/u/original/27089989/best_fancy_restaurant-girl_and_the_goat.jpg);
+  background-size: 125%;
+}
+
+.cities {
+  display: flex;
+}
+.cities > div:hover {
+  cursor: pointer;
+}
+.cities > div {
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+}
+.city1 {
+  background: url(https://media2.fdncms.com/orlando/imager/u/original/2544838/screen_shot_2015-07-21_at_4.35.54_pm.png)
+    center;
+  width: 225px;
+  height: 282px;
+  background-size: 260%;
+  box-shadow: inset 0px -187px 123px -114px rgba(0, 0, 0, 0.75);
+}
+.city2 {
+  background: url(https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200)
+    center;
+  width: 225px;
+  height: 282px;
+  background-size: 260%;
+  box-shadow: inset 0px -187px 123px -114px rgba(0, 0, 0, 0.75);
+}
+.city3 {
+  background: url(http://media.navigatored.com/images/940*630/shutterstock_603555710.jpg)
+    center;
+  width: 225px;
+  height: 282px;
+  background-size: 260%;
+  box-shadow: inset 0px -187px 123px -114px rgba(0, 0, 0, 0.75);
+}
+.city4 {
+  background: url(https://media.wired.com/photos/5b9c01161e60052cdc38bdef/master/pass/losangeles-947698310.jpg)
+    center;
+  width: 225px;
+  height: 282px;
+  background-size: 260%;
+  box-shadow: inset 0px -187px 123px -114px rgba(0, 0, 0, 0.75);
+}
+.city5 {
+  background: url(https://objects.airfrance.com/FR/common/common/img/tbaf/destinations/PAR/slideshow/PAR-1-16_9-1920x1080.jpg)
+    center;
+  width: 225px;
+  height: 282px;
+  background-size: 260%;
+  box-shadow: inset 0px -187px 123px -114px rgba(0, 0, 0, 0.75);
+}
+.cities div h3 {
+  position: relative;
+  top: 190px;
+}
+.cities div span {
+  position: relative;
+  top: 175px;
+  font-size: 15px;
+}
+/* * {
+  border: 1px solid red;
+} */
